@@ -1,0 +1,19 @@
+.btn-grad {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle white border */
+    color: white; /* Keep text visible */
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-grad:hover {
+    background: rgba(255, 255, 255, 0.3); /* Slightly brighter on hover */
+    backdrop-filter: blur(15px); /* More blur on hover */
+  }
+  
+  .aboutbutton{
+    border-radius: 50px;
+  }
