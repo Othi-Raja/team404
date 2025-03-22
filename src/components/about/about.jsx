@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import "./about.css";
 import Cyberbutton from "./custmbutton";
+import { Label } from "@mui/icons-material";
+import { Button } from "@mui/material";
 
 export default function About() {
   const buttons = ["X", "Instagram", "GitHub"];
@@ -78,7 +80,7 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 * index }}
           >
-            <Cyberbutton InputText={label} />
+            <Button className="bg-transparent     " >{label}</Button>
           </motion.div>
         ))}
       </div>
