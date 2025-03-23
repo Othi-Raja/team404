@@ -21,8 +21,14 @@
     "react-awesome-button": "^7.0.5",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
+    "react-fast-marquee": "^1.6.5",
     "react-icons": "^5.5.0",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
+=======
+    "react-intersection-observer": "^9.16.0",
+    "react-scripts": "5.0.1",
+>>>>>>> c7cfbdc0010ac653db86ae00de6cb3a7fdaeb1cf
     "web-vitals": "^2.1.4"
   },
   "scripts": {

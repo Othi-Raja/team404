@@ -53,6 +53,7 @@ export default function Home() {
         >
           A<IoAnalyticsSharp />ALYSIS
         </motion.p>
+
       </motion.div>
     </div>
   );

@@ -7,11 +7,13 @@ import reportWebVitals from './reportWebVitals';
 import Home from './components/home/home';
 import About from './components/about/about';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Info from './components/projectInfo/info';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
  <Home/>
+ <Info/>
  <About/>
   </React.StrictMode>
 );

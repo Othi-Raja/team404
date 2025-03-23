@@ -24,7 +24,7 @@ export default function About() {
       setBgGradient(getSmoothGradient(scrollY)); // Update gradient
       // Animate circle expansion
       controls.start({
-        width: getCircleSize(scrollY),
+        width: getCircleSize(scrollY), 
         height: getCircleSize(scrollY),
       });
     };
